@@ -15,5 +15,8 @@ class Solution
 {
 public:
   Solution();
+  // https://leetcode.com/problems/balanced-binary-tree/description/?envType=problem-list-v2&envId=depth-first-search
   bool isBalanced(TreeNode *root);
+  // https://leetcode.com/problems/minimum-depth-of-binary-tree/description/?envType=problem-list-v2&envId=depth-first-search
+  int minDepth(TreeNode *root);
 };
