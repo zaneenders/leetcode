@@ -29,7 +29,7 @@ public class ListNode {
     for val in array.dropFirst() {
       let n = ListNode(val)
       if self.next != nil {
-        self.next!.next = n
+        cur!.next = n
       } else {
         self.next = n
       }
